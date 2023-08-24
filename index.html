@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myQuiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="previus">
+      <h1 class="white">შეამოწმეთ თქვენი ცოდნა</h1>
+      <p class="gradient">
+        სულ არის 5 შეკითხვა, თითოეულ სწორად გაცემულ პასუხზე დაგემატებათ 1 ქულა,
+      </p>
+      <h3 class="white">წარმატებას გისურვებთ</h3>
+      <button class="prevButton">დაწყება</button>
+    </div>
+    <!-- ტესტი 1 -->
+    <div class="test1 hidden">
+      <h1>1 / 5</h1>
+      <h1>რა სპორტული თამაში გამოიგონა ჯეიმს ნაისტიმ 1891 წელს?</h1>
+      <button class="btn1 disable1">ფეხბურთი</button>
+      <button class="btn1 disable2" value="correct">კალათბურთი</button>
+      <button class="btn1 disable3">ჩოგბურთი</button>
+
+      <button class="next1">შემდეგი შეკითხვა ==></button>
+    </div>
+    <!-- ტესტი2 -->
+    <div class="test2 hidden test">
+      <h1>2 / 5</h1>
+      <h1>რა ჰქვია ყველაზე დიდ ტექნოლოგიურ კომპანიას სამხრეთ კორეაში?</h1>
+      <button value="correct" class="disable1 btn2 btn">samsung</button>
+      <button class="btn2 btn disable2">apple</button>
+      <button class="btn2 btn disable3">xiaomi</button>
+
+      <button class="next2 next">შემდეგი შეკითხვა ==></button>
+    </div>
+
+    <!-- ტესტი3 -->
+
+    <div class="test3 hidden test">
+      <h1>3 / 5</h1>
+      <h1>რა არის საშუალო ზედაპირის ტემპერატურა ვენერაზე?</h1>
+      <button class="btn3 btn disable1">250C</button>
+      <button class="btn3 btn disable2">300C</button>
+      <button value="correct" class="btn3 btn disable3">460C</button>
+
+      <button class="next3 next">შემდეგი შეკითხვა ==></button>
+    </div>
+    <!-- ტესტი4 -->
+
+    <div class="test4 hidden test">
+      <h1>4 / 5</h1>
+      <h1>რომელ ქვეყანაში დაარსდა პირველად უნივერსიტეტი?</h1>
+      <button value="correct" class="btn4 btn disable1">იტალია</button>
+      <button class="btn4 btn disable2">საფრანგეთი</button>
+      <button class="btn4 btn disable3">ესპანეთი</button>
+
+      <button class="next4 next">შემდეგი შეკითხვა ==></button>
+    </div>
+
+    <!-- ტესტი 5 -->
+
+    <div class="test5 hidden test">
+      <h1>5 / 5</h1>
+      <h1>
+        რომელმა ქალმა მოიგო 24 მუსიკალური გრემის ჯილდო, ყველაზე მეტი ისტორიაში?
+      </h1>
+      <button value="correct" class="btn5 btn disable1">byonce</button>
+      <button class="btn5 btn disable2">adele</button>
+      <button class="btn5 btn disable3">shade</button>
+
+      <button class="next5 next">დასრულება==></button>
+    </div>
+
+    <div class="end hidden">gilocav</div>
+
+    <div class="scores">0</div>
+    <div class="minus-score">0</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
